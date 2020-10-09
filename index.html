@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Fontawesome fas-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>TP1</title>
+</head>
+
+<body class="bg-light">
+    <!--Start navbar-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#navTP1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navTP1">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Start sidebar-->
+                    <div class="sidebar fixed-top bg-dark">
+                        <a href="#" class="navbar-brand text-white d-flex justify-content-center">TP-01 Inc.</a>
+                        <div class="dropdown-divider"></div>
+                        <div class="bottom-border pb-3">
+                            <img src="images/java.png" width="50" class="rounded-circle mr-3">
+                            <a href="#" class="text-danger pt">Pravdin Maksym</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <div class="dropdown-divider"></div>
+                            <ul class="navbar-nav flex-column mt-4">
+                                <li class="nav-item"><a href="#"
+                                        class="nav-link text-danger fot-weight-bold p-3 my-2"><i
+                                            class="fas fa-home text-danger fa-lg mr-3">
+                                        </i>Tableau de bord</a>
+                                </li>
+
+                                <li class="nav-item"><a href="#" class="nav-link text-danger p-3 my-2 sidebar-link"><i
+                                            class="fas fa-user text-danger fa-lg mr-3">
+                                        </i>Profile</a>
+                                </li>
+
+                                <li class="nav-item"><a href="#" class="nav-link text-danger p-3 my-2 sidebar-link"><i
+                                            class="fas fa-wrench text-danger fa-lg mr-3">
+                                        </i>Configuration</a>
+                                </li>
+
+                                <li class="nav-item"><a href="#" class="nav-link text-danger p-3 my-2 sidebar-link"><i
+                                            class="fas fa-envelope text-danger fa-lg mr-3">
+                                        </i>Inbox</a>
+                                </li>
+
+                                <li class="nav-item"><a href="#" class="nav-link text-danger p-3 my-2 sidebar-link"><i
+                                            class="fas fa-table text-danger fa-lg mr-3">
+                                        </i>Tableaux</a>
+                                </li>
+
+                                <li class="nav-item"><a href="#" class="nav-link text-danger p-3 my-2 sidebar-link"><i
+                                            class="fas fa-shopping-cart text-danger fa-lg mr-3">
+                                        </i>Ventes</a>
+                                </li>
+
+                                <li class="nav-item"><a href="#" class="nav-link text-danger p-3 my-2 sidebar-link"><i
+                                            class="fas fa-chart-line text-danger fa-lg mr-3">
+                                        </i>Statistiques</a>
+                                </li>
+
+                                <li class="nav-item"><a href="#" class="nav-link text-danger p-3 my-2 sidebar-link"><i
+                                            class="fas fa-chart-bar text-danger fa-lg mr-3">
+                                        </i>Graphes</a>
+                                </li>
+
+                                <li class="nav-item"><a href="#" class="nav-link text-danger p-3 my-2 sidebar-link"><i
+                                            class="fas fa-file-alt text-danger fa-lg mr-3">
+                                        </i>Documentation</a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End sidebar-->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--End navbar-->
+    
+    <section>
+        <!--Objectif 3 CARTES-->
+        <div class="container-fluid">
+            <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+                <!--Décallage de début-->
+                <div class="row pt-md-5 mt-md-3 mb-5">
+
+                    <!-- Insertion des Cartes -->
+                    <div class="col-xl-3 col-sm-6 p-2">
+                        <!-- Esapce entre l'icone et le texte-->
+                        <div class="card card-common">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <i class="fas fa-shopping-cart fa-3x text-warning"></i>
+                                    <div class="text-right text-between">
+                                        <h5>Ventes</h5>
+                                        <h3>150,000$</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer text-secondary">
+                                <i class="fas fa-sync mr-3"></i>
+                                <span>Updated now</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-sm-6 p-2">
+                        <!-- Esapce entre l'icone et le texte-->
+                        <div class="card card-common">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <i class="fas fa-money-bill-alt fa-3x text-success"></i>
+                                    <div class="text-right text-between">
+                                        <h5>Depenses</h5>
+                                        <h3>48,000$</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer text-secondary">
+                                <i class="fas fa-sync mr-3"></i>
+                                <span>Updated now</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-sm-6 p-2">
+                        <!-- Esapce entre l'icone et le texte-->
+                        <div class="card card-common">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <i class="fas fa-users fa-3x text-info"></i>
+                                    <div class="text-right text-between">
+                                        <h5>Clients</h5>
+                                        <h3>120,000</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer text-secondary">
+                                <i class="fas fa-sync mr-3"></i>
+                                <span>Updated now</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-sm-6 p-2">
+                        <!-- Esapce entre l'icone et le texte-->
+                        <div class="card card-common">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <i class="fas fa-chart-line fa-3x text-danger"></i>
+                                    <div class="text-right text-between">
+                                        <h5>Visiteurs</h5>
+                                        <h3>73,000</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer text-secondary">
+                                <i class="fas fa-sync mr-3"></i>
+                                <span>Updated now</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--Fin Objectif 3-->
+
+    <section>
+        <!--Objectif 4-->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+                    <!--Décallage de début-->
+                    <div class="row pt-md-5 mt-md-3 md-5 d-flex align-items-center">
+                        <div class="col-xl-6 col-lg-6 col-md-10 col-sm-10 col-xs-10">
+                            <h3 class="text-center">Staff Salary</h3>
+
+                            <table class="table table-striped text-center bg-white">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Nom</th>
+                                        <th>Date</th>
+                                        <th>Salaire</th>
+                                        <th>Message</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td scope="row">1</td>
+                                        <td>Pascal</td>
+                                        <td>25/09/2020</td>
+                                        <td>5300$</td>
+                                        <td><button type="button" class="btn btn-info btn-sm">Message</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">2</td>
+                                        <td>Louis</td>
+                                        <td>25/09/2020</td>
+                                        <td>5300$</td>
+                                        <td><button type="button" class="btn btn-info btn-sm">Message</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">3</td>
+                                        <td>Coralie</td>
+                                        <td>25/09/2020</td>
+                                        <td>5300$</td>
+                                        <td><button type="button" class="btn btn-info btn-sm">Message</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">4</td>
+                                        <td>Naya</td>
+                                        <td>25/09/2020</td>
+                                        <td>5300$</td>
+                                        <td><button type="button" class="btn btn-info btn-sm">Message</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">5</td>
+                                        <td>Lea</td>
+                                        <td>25/09/2020</td>
+                                        <td>5300$</td>
+                                        <td><button type="button" class="btn btn-info btn-sm">Message</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- Pagination-->
+                            <div class="d-flex justify-content-center">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                        <li class="page-item"><a class="page-link" href="#">«</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">»</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-6 col-lg-6 col-md-10 col-sm-10 col-xs-10">
+                            <h3 class="text-center">Recent Payments</h3>
+
+                            <table class="table table-striped table-dark text-center">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th>Date</th>
+                                        <th>Prix</th>
+                                        <th>État</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td scope="row">1</td>
+                                        <td>Léa</td>
+                                        <td>25/09/2020</td>
+                                        <td>1645$</td>
+                                        <td><button type="button" class="btn btn-success btn-sm">Approuve</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">2</td>
+                                        <td>Coralie</td>
+                                        <td>25/09/2020</td>
+                                        <td>1645$</td>
+                                        <td><button type="button" class="btn btn-success btn-sm">Approuve</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">3</td>
+                                        <td>Louis</td>
+                                        <td>25/09/2020</td>
+                                        <td>1645$</td>
+                                        <td><button type="button" class="btn btn-danger btn-sm">En Attente</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">4</td>
+                                        <td>Jane</td>
+                                        <td>25/05/2020</td>
+                                        <td>2000$</td>
+                                        <td><button type="button" class="btn btn-danger btn-sm">En Attente</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">5</td>
+                                        <td>Naya</td>
+                                        <td>25/09/2020</td>
+                                        <td>1645$</td>
+                                        <td><button type="button" class="btn btn-success btn-sm">Approuve</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">6</td>
+                                        <td>Pascal</td>
+                                        <td>25/09/2020</td>
+                                        <td>1645$</td>
+                                        <td><button type="button" class="btn btn-danger btn-sm">En Attente</button></td>
+                                    </tr>
+                            </table>
+                            <!-- Pagination-->
+                            <div class="d-flex justify-content-center">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--Fin Objectif 4-->
+
+    <section>
+        <!--Objectif 5-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+                    <!--Décallage de début-->
+                    <div class="row mb-4 align-items-center">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-10 col-xs-10">
+                            <!--Start progress bar-->
+                            <div class="bg-dark text-white p-4 rounded">
+                                <h4 class="mb-5">Sondage Language de programmation</h4>
+                                <h6 class="mb-3">JAVA-J2EE</h6>
+                                <div class="progress mb-4" style="height:20px">
+                                    <div class="progress-bar progress-bar-striped font-weight-bold" style="width:95%">
+                                        95%</div>
+                                </div>
+
+                                <h6 class="mb-3">ANGULAR 10</h6>
+                                <div class="progress mb-4" style="height:20px">
+                                    <div class="progress-bar progress-bar-striped font-weight-bold bg-success"
+                                        style="width:85%">85%</div>
+                                </div>
+
+                                <h6 class="mb-3">REACT</h6>
+                                <div class="progress mb-4" style="height:20px">
+                                    <div class="progress-bar progress-bar-striped font-weight-bold bg-danger"
+                                        style="width:70%">70%</div>
+                                </div>
+
+                                <h6 class="mb-3">PHP</h6>
+                                <div class="progress mb-4" style="height:20px">
+                                    <div class="progress-bar progress-bar-striped font-weight-bold bg-info"
+                                        style="width:13%">13%</div>
+                                </div>
+                            </div>
+                            <!--End progress bar-->
+                        </div>
+
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-10 col-xs-10">
+                            <h3 class="text-secondary">Tasks:</h3>
+                            <div class="card card-common">
+                                <div class="card-body">
+                                    <div>
+                                        <div class="borderCustom bg-warning"></div>
+                                        <input type="checkbox" id="test">
+                                        <label for="test" class="pl-4 pt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</label>
+                                            <span class="float-right">
+                                            <button class="border-0 btn-transition btn btn-outline-success"> <i
+                                                    class="fas fa-edit "></i></button>
+                                            <button class="border-0 btn-transition btn btn-outline-danger"> <i
+                                                    class="fas fa-trash"></i> </button></span>
+                                    </div>    
+                                </div>
+                            </div>
+                            <div class="card card-common">
+                                <div class="card-body">
+                                    <div>
+                                        <div class="borderCustom bg-warning"></div>
+                                        <input type="checkbox" id="test">
+                                        <label for="test" class="pl-4 pt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</label>
+                                            <span class="float-right">
+                                            <button class="border-0 btn-transition btn btn-outline-success"> <i
+                                                    class="fas fa-edit "></i></button>
+                                            <button class="border-0 btn-transition btn btn-outline-danger"> <i
+                                                    class="fas fa-trash"></i> </button></span>
+                                    </div>    
+                                </div>
+                            </div>
+                            <div class="card card-common">
+                                <div class="card-body">
+                                    <div>
+                                        <div class="borderCustom bg-warning"></div>
+                                        <input type="checkbox" id="test">
+                                        <label for="test" class="pl-4 pt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</label>
+                                            <span class="float-right">
+                                            <button class="border-0 btn-transition btn btn-outline-success"> <i
+                                                    class="fas fa-edit "></i></button>
+                                            <button class="border-0 btn-transition btn btn-outline-danger"> <i
+                                                    class="fas fa-trash"></i> </button></span>
+                                    </div>    
+                                </div>
+                            </div>
+                            <div class="card card-common">
+                                <div class="card-body">
+                                    <div>
+                                        <div class="borderCustom bg-warning"></div>
+                                        <input type="checkbox" id="test">
+                                        <label for="test" class="pl-4 pt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</label>
+                                            <span class="float-right">
+                                            <button class="border-0 btn-transition btn btn-outline-success"> <i
+                                                    class="fas fa-edit "></i></button>
+                                            <button class="border-0 btn-transition btn btn-outline-danger"> <i
+                                                    class="fas fa-trash"></i> </button></span>
+                                    </div>    
+                                </div>
+                            </div>
+                            <div class="card card-common">
+                                <div class="card-body">
+                                    <div>
+                                        <div class="borderCustom bg-warning"></div>
+                                        <input type="checkbox" id="test">
+                                        <label for="test" class="pl-4 pt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</label>
+                                            <span class="float-right">
+                                            <button class="border-0 btn-transition btn btn-outline-success"> <i
+                                                    class="fas fa-edit "></i></button>
+                                            <button class="border-0 btn-transition btn btn-outline-danger"> <i
+                                                    class="fas fa-trash"></i> </button></span>
+                                    </div>    
+                                </div>
+                            </div>
+                            
+                            
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--Fin Objectif 5-->
+
+    <!-- Start Footer-->
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+                    <div class="row border-top-pt-3">
+                        <div class="col-lg-6 text-center">
+                            <ul class="list-inline">
+                                <li class="list-inline-item mr-2">
+                                    <a href="#">TP01-420-345-AL</a>
+                                </li>
+                                <li class="list-inline-item mr-2">
+                                    <a href="#">About</a>
+                                </li>
+                                <li class="list-inline-item mr-2">
+                                    <a href="#">Support</a>
+                                </li>
+                                <li class="list-inline-item mr-2">
+                                    <a href="#">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 text-center">
+                            <p>&copy; 2020 Copyright. Made with <i class="fas fa-heart text-danger"></i> by <span
+                                    class="text-success">Pravdin Maksym</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End Footer-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

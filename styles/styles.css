@@ -1,0 +1,23 @@
+.borderCustom {
+    border-radius: 0.3rem;
+    width: 4px;
+    left: 0rem;
+    height: 100%;
+    top: 0%;
+    opacity: .6;
+    transition: opacity .2s;
+    position: absolute;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:auto;
+    z-index: 1030;
+    bottom:0;
+}
+
+div ul li:hover{
+	background-color:white;
+}
